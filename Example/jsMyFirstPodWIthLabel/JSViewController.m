@@ -7,6 +7,7 @@
 //
 
 #import "JSViewController.h"
+#import "UILabel+MyFirstLabel.h"
 
 @interface JSViewController ()
 
@@ -17,8 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    UILabel *textLabel = [UILabel labelWithFrame:CGRectMake(100, 100, 100, 100) andText:@"pod库建立" andFont:[UIFont systemFontOfSize:[UIFont systemFontSize]]  andTextColor:[UIColor redColor] andAlignment:UITextAlignmentLeft];
+    textLabel.backgroundColor = [UIColor greenColor];
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(50,50, 100, 100)];
+    [btn setTitle:@"hhh" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [self.view addSubview:textLabel];
+    [self.view addSubview:btn];}
 
 - (void)didReceiveMemoryWarning
 {

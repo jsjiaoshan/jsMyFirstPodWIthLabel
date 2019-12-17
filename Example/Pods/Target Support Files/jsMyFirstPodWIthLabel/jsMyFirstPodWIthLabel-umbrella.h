@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UILabel+MyFirstLabel.h"
 
 FOUNDATION_EXPORT double jsMyFirstPodWIthLabelVersionNumber;
 FOUNDATION_EXPORT const unsigned char jsMyFirstPodWIthLabelVersionString[];

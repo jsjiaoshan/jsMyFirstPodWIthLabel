@@ -1,9 +1,9 @@
 {
   "name": "jsMyFirstPodWIthLabel",
   "version": "0.1.0",
-  "summary": "A short description of jsMyFirstPodWIthLabel.",
+  "summary": "A Label with Category",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/jiaoshan/jsMyFirstPodWIthLabel",
+  "homepage": "https://github.com/jsjiaoshan/jsMyFirstPodWIthLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "jiaoshan": "2977530037@qq.com"
   },
   "source": {
-    "git": "https://github.com/jiaoshan/jsMyFirstPodWIthLabel.git",
+    "git": "https://github.com/jsjiaoshan/jsMyFirstPodWIthLabel.git",
     "tag": "0.1.0"
   },
   "platforms": {
