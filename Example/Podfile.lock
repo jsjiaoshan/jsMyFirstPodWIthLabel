@@ -1,0 +1,16 @@
+PODS:
+  - jsMyFirstPodWIthLabel (0.1.0)
+
+DEPENDENCIES:
+  - jsMyFirstPodWIthLabel (from `../`)
+
+EXTERNAL SOURCES:
+  jsMyFirstPodWIthLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  jsMyFirstPodWIthLabel: 8f5d0387a3842144f8b402ced9cf6a36a693ea66
+
+PODFILE CHECKSUM: ce6aa423e59e486ed7352bb6c4225a2b74f7715c
+
+COCOAPODS: 1.8.4

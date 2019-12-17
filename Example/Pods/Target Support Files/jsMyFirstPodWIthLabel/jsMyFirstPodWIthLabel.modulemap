@@ -1,0 +1,6 @@
+framework module jsMyFirstPodWIthLabel {
+  umbrella header "jsMyFirstPodWIthLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
